@@ -1,0 +1,36 @@
+#qrcode {
+  text-align: center;
+}
+.view {
+  text-align: center;
+  margin: 1.2rem auto;
+}
+#content {
+  width: 100%;
+  min-height: 50vh;
+  font-size: 1.2rem;
+}
+.cp {
+  display: block;
+  font-size: 1.2rem;
+  margin: 10px auto;
+  text-align: center;
+}
+#mybtn {
+  margin: 0 1rem 0 0;
+}
+.t-msg {
+  background: #3c3c3c;
+  display: inline-block;
+  white-space: nowrap;
+  min-width: 2rem;
+  color: white;
+  position: absolute;
+  border-radius: 9px;
+  border: 1px solid #fff;
+  padding: 2px 5px 2px 5px;
+}
+.toast {
+  position: relative;
+  display: none;
+}
