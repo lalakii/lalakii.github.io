@@ -26,7 +26,7 @@ window.onload = () => {
     }`;
   };
   subBtn.className = `mysub btn ${
-    acceptCbx.checked ? "btn-success" : "btn-secondary"
+    acceptCbx.checked ? "btn-success button is-success" : "button btn-secondary"
   }`;
   subBtn.setAttribute("type", "submit");
 };
